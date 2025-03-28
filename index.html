@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: linear-gradient(to right, #1e3c72, #2a5298);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 0;
+            position: relative;
+        }
+
+        .header-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .header-content h1 {
+            font-size: 3.5rem;
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        .header-content p {
+            font-size: 1.5rem;
+            font-weight: 300;
+        }
+
+        .profile-picture {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            margin-bottom: 15px;
+        }
+
+        nav {
+            background-color: #222;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.3rem;
+            font-weight: 400;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #f39c12;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2.5rem;
+            margin: 2rem auto;
+            max-width: 850px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: left;
+        }
+
+        .section-content h2 {
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .download-button {
+            background: #1e3c72;
+            color: #fff;
+            padding: 0.85rem 1.7rem;
+            text-decoration: none;
+            border-radius: 30px;
+            display: inline-block;
+            margin-top: 15px;
+            font-size: 1.2rem;
+            font-weight: 400;
+            transition: background 0.3s;
+        }
+
+        .download-button:hover {
+            background: #2a5298;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem 0;
+            background: #222;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="profile.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>Viknesh S</h1>
+            <p>Software Tester</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>Bio</h2>
+            <p>I am an aspiring Software Tester with a strong foundation in testing methodologies, defect tracking, and automation tools. Passionate about ensuring software quality, enhancing user experience, and continuously learning new testing technologies.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <div class="section-content">
+            <h2>Resume</h2>
+            <p><strong>Certifications:</strong></p>
+            <ul>
+                <li>Testing Fundamentals</li>
+                <li>API Testing with Postman</li>
+                <li>Proficient in JIRA for defect tracking</li>
+            </ul>
+            <br>
+            <p><strong>Achievements & Personal Profile:</strong></p>
+            <ul>
+                <li>Strong analytical and problem-solving skills</li>
+                <li>Excellent communication and time management abilities</li>
+            </ul>
+            <br>
+            <p><strong>Technical Skills:</strong></p>
+            <ul>
+                <li>Programming Languages: Java, Python, JavaScript, C#</li>
+                <li>Software Testing: Manual & Automation Testing</li>
+                <li>Defect Tracking Tools: JIRA</li>
+                <li>API Testing: Postman</li>
+            </ul>
+            <br>
+            <p><strong>Soft Skills:</strong></p>
+            <ul>
+                <li>Analytical Thinking</li>
+                <li>Problem Solving</li>
+                <li>Communication Skills</li>
+                <li>Time Management</li>
+            </ul>
+            <br>
+            <p><strong>Work Experience:</strong></p>
+            <ul>
+                <li>Software Test Engineer at Tech Solutions Ltd. (2024 - Present)</li>
+                <li>Develop and execute test plans, test cases, and test scripts for web and mobile applications.</li>
+                <li>Perform manual and automation testing to identify and fix bugs.</li>
+                <li>Conduct API testing using Postman to ensure seamless backend functionality.</li>
+            </ul>
+            <br>
+            <p><strong>Education:</strong></p>
+            <ul>
+                <li>Bachelor of Business Management, Wardiere University (2025 - 2029) - GPA: 3.8 / 4.0</li>
+                <li>Master of Business Management, Wardiere University (2029 - 2031) - GPA: 3.8 / 4.0</li>
+            </ul>
+            <br>
+            <p>Download my resume as a PDF:</p>
+            <a href="resume.pdf" target="_blank" class="download-button">Download CV</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Viknesh S</p>
+    </footer>
+</body>
+</html>
